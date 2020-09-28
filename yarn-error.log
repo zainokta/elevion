@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Rakei\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express-js
+
+PATH: 
+  C:\Users\Rakei\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Rakei\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\go\bin;C:\Go\bin;D:\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Program\jdk-14.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet;E:\Program\ngrok;C:\MinGW\bin;E:\Program\HeidiSQL_11.0_64_Portable;C:\Users\Rakei\scoop\shims;C:\Users\Rakei\AppData\Local\Microsoft\WindowsApps;C:\Users\Rakei\AppData\Roaming\npm;C:\Users\Rakei\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rakei\AppData\Roaming\Composer\vendor\bin;C:\Users\Rakei\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express-js: Not found
+      at Request.params.callback [as _callback] (C:\Users\Rakei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66987:18)
+      at Request.self.callback (C:\Users\Rakei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\Rakei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\Rakei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "wii-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
